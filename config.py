@@ -1,12 +1,12 @@
-conf = {
-    "token"         : "626766006:AAFseeLl8ZwcKYEDXHcfZAzzXTIv8KiNwhs",
-    }
+import os
+
+tokenBot = os.getenv("TOKEN_BOT_TELEGRAM")
 
 pesan = {
     "bantuan" :
-        u"Ikeh ikeh\n"
-        u"Kimochi\n"
-        u"Emang mantap",
+        u"Help me\n"
+        u"Help me\n"
+        u"Help me\n",
 
     "absensi":
         u"Induk : {0}\n"

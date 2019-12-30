@@ -1,10 +1,9 @@
 import telebot
 from telebot import types
-from config import conf, pesan
+from config import pesan, tokenBot
 import views, time
 
-API_TOKEN = '{}'.format(conf['token'])
-bot = telebot.TeleBot(API_TOKEN, threaded=False)
+bot = telebot.TeleBot(tokenBot, threaded=False)
 
 def makrup_paksa():
     return types.ForceReply(selective=False)
